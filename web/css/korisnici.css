@@ -1,0 +1,35 @@
+.korisniciKontejner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    margin-top:20px;
+}
+/* Osnovni stil za linkove kao dugmad */
+a.button {
+  display: inline-block;
+  padding: 10px 20px; /* Prilagodite padding po potrebi */
+  text-decoration: none;
+  background-color: #007bff; /* Boja pozadine */
+  color: #fff; /* Boja teksta */
+  border: 1px solid #007bff; /* Boja granice */
+  border-radius: 4px; /* Zaobljeni rubovi */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+/* Stil za linkove kao dugmad kada se pređe mišem */
+a.button:hover {
+  background-color: #0056b3; /* Boja pozadine kada se pređe mišem */
+  border-color: #0056b3; /* Boja granice kada se pređe mišem */
+  color: #fff; /* Boja teksta kada se pređe mišem */
+}
+
+/* Stil za linkove kao dugmad kada se klikne */
+a.button:active {
+  background-color: #003b80; /* Boja pozadine kada se klikne */
+  border-color: #003b80; /* Boja granice kada se klikne */
+  color: #fff; /* Boja teksta kada se klikne */
+}

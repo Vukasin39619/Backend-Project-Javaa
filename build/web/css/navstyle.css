@@ -1,0 +1,25 @@
+*{
+
+    font-family: verdana;
+}
+.navKontejner{
+    display:flex;
+    margin-bottom: 25px;
+
+}
+.nav1{
+    flex-basis: 25%;
+    margin-left: 10px;
+}
+.nav2{
+    flex-basis:75%;
+    text-align: right;
+    margin-top: 50px;
+
+}
+
+.aNavbar{
+    margin-right: 20px;
+    text-decoration: none;
+}
+

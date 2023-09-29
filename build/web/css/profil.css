@@ -1,0 +1,47 @@
+*{
+    
+}
+
+.kontejnerProfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Omogućava prelazak na novi red ako su kontejneri prešli širinu roditeljskog kontejnera */
+    margin-top:50px;
+}
+
+.okvirProfil{
+    background-color: grey;
+    padding-bottom: 150px;
+    flex-basis: 50%;
+     margin-right: 350px;
+     
+    
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+
+.OkvirOpcije{
+    background-color: grey;
+    padding-bottom: 20px;
+    flex-basis: 20%;
+    
+    text-align: center;
+    
+   
+}
+
+.profil1{
+    flex-basis: 50%;
+    margin-left: 135px;
+    margin-top: 120px;
+    
+}
+.profil2{
+    flex-basis: 50%; 
+    margin-top: 120px;
+}
+
