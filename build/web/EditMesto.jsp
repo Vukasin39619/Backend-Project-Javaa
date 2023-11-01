@@ -26,13 +26,14 @@
     
     %>
     <%
+        Mesto mesto = null;
         // Dohvati ID korisnika iz URL-a
         String userIdStr = request.getParameter("id");
         if (userIdStr != null && !userIdStr.isEmpty()) {
             int userId = Integer.parseInt(userIdStr);
             
             // Inicijaliziraj objekt za korisnika
-            Mesto mesto = null;
+            
 
             // Povezivanje s bazom i dohvaćanje podataka o korisniku
             try (Connection connection = Konekcija.createConnection()) {
@@ -49,7 +50,7 @@
                     int id_destinacije = rs.getInt("id_destinacije");
                     
 
-                    mesto = new Mesto(id, adresa, nazivmesta, id_destinacije,cena,datum);
+                    mesto = new Mesto(id, adresa, nazivmesta,cena,datum, id_destinacije);
                 }
             } catch (SQLException e) {
                 e.printStackTrace();

@@ -80,7 +80,7 @@ public class DeleteUserServlet extends HttpServlet {
 
             if (deleted) {
                 // Korisnik je uspješno obrisan, možete redirektirati na stranicu "Korisnici.jsp" ili gdje god želite
-                response.sendRedirect("index.jsp");
+                response.sendRedirect("AdminPanel.jsp");
             } else {
                 // Došlo je do greške pri brisanju, možete redirektirati na stranicu sa porukom o grešci
                 response.sendRedirect("error.jsp");

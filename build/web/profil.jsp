@@ -26,7 +26,7 @@
         <script src="https://kit.fontawesome.com/84b7058e15.js" crossorigin="anonymous"></script>
     </head>
     <body>
-      <%@include file="layout/navbarKlijent.jsp" %>
+      
 
         <h1 style="text-align: center;">Dobro dosli "<%=k1.getIme()%>"</h1>
         <div class="kontejnerProfil">

@@ -79,7 +79,7 @@ public class EditUserServlet extends HttpServlet {
 
         if (updated) {
             // Uspješno ažuriranje, možete redirektirati na stranicu "Korisnici.jsp" ili gdje god želite
-            response.sendRedirect("profil.jsp");
+            response.sendRedirect("AdminPanel.jsp");
         } else {
             // Došlo je do greške pri ažuriranju, možete redirektirati na stranicu sa porukom o grešci
             response.sendRedirect("error.jsp");
